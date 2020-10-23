@@ -752,15 +752,15 @@
                             if ((h || w in b) && (d = b[w], y = m(d, w, g), t))
                                 if (r) S[w] = y;
                                 else if (y) switch (t) {
-                            case 3:
-                                return !0;
-                            case 5:
-                                return d;
-                            case 6:
-                                return w;
-                            case 2:
-                                S.push(d)
-                        } else if (s) return !1;
+                                case 3:
+                                    return !0;
+                                case 5:
+                                    return d;
+                                case 6:
+                                    return w;
+                                case 2:
+                                    S.push(d)
+                            } else if (s) return !1;
                         return l ? -1 : a || s ? s : S
                     }
                 }
